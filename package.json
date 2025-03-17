@@ -2,6 +2,7 @@
   "name": "formula-evolution-system",
   "version": "0.1.0",
   "private": true,
+  "description": "一个基于React的智能公式演化系统，通过AI对话和数据可视化帮助用户探索数据关系和公式演化。集成OpenAI和Google Gemini API，支持多目标优化。",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

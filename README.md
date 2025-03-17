@@ -12,7 +12,7 @@
 
 ## 快速开始
 
-1. 克隆项目并安装依赖：
+1. 克隆项目并安装依赖： 
 ```bash
 git clone [your-repository-url]
 cd formula-evolution-system
@@ -46,9 +46,48 @@ npm start
 
 ## 技术栈
 
-- React
-- Chart.js
+- React 18
+- Chart.js 4.3.0
 - OpenAI/Google Gemini API
+
+## 项目演示
+
+### 主界面
+![主界面](docs/images/main.png)
+*主界面包含AI对话输入区、数据可视化区和控制面板*
+
+### 公式演化过程
+![演化过程](docs/images/evolution.png)
+*实时展示公式演化和优化过程*
+
+## 贡献指南
+
+我们欢迎任何形式的贡献，包括但不限于：
+
+- 提交问题和建议
+- 改进文档
+- 提交代码修复
+- 添加新功能
+
+贡献步骤：
+
+1. Fork 项目
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交改动 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 提交 Pull Request
+
+## 问题反馈
+
+如果您在使用过程中遇到任何问题，请：
+
+1. 查看[常见问题](docs/FAQ.md)
+2. 在GitHub Issues中搜索类似问题
+3. 如果问题仍未解决，请[创建新的Issue](../../issues/new)，并提供：
+   - 问题描述
+   - 复现步骤
+   - 系统环境信息
+   - 相关的日志或截图
 
 ## 许可证
 
