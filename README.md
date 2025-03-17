@@ -55,7 +55,8 @@ npm start
 ## 项目演示
 
 ### 主界面
-![主界面](docs/images/main.png)
+![主界面]![image](https://github.com/user-attachments/assets/49b20aa6-db73-4d11-a4dd-2051f8f9ef4d)
+(docs/images/main.png)
 *主界面包含AI对话输入区、数据可视化区和控制面板*
 
 ### 公式演化过程
