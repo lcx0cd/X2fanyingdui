@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.App-header p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.App-main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.left-panel, .right-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .App-main {
+    flex-direction: column;
+  }
+}
